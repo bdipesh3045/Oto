@@ -1,0 +1,15 @@
+{
+  "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+  "sourceSha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+  "ndk": "28.2.13676358",
+  "androidApi": 26,
+  "abi": "arm64-v8a",
+  "pageSize": 16384,
+  "libraries": {
+    "libsharpyuv.so": "a9fa3fa87f4dedcd3bfe475cc24708245cfaaa1f445407ee2a86660a572194d7",
+    "libwebp.so": "4dea13db81433cceb684ca6c705513007fb1b720ae9988772bab6f45658f7c62",
+    "libwebpdecoder.so": "462523b2ce81ad094c6f6e044441b53b9cfc3adb2d704fe0c042437258fc7f1d",
+    "libwebpdemux.so": "6d8ae8c55d8700d5eb74ef8bb6f55906c769a958606512b8720e0e9aa7deaae8",
+    "libwebpmux.so": "e0ef5835d7e12ed9ff744d50c06926e7fdb6aeac787f97bf90ce372d32c88934"
+  }
+}

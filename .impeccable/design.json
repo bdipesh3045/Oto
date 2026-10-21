@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T15:31:17.702494+00:00",
+  "title": "Design System: oto Android",
+  "extensions": {
+    "colorMeta": {
+      "seed": {
+        "role": "primary",
+        "displayName": "Seed"
+      },
+      "light-primary": {
+        "role": "primary",
+        "displayName": "Light primary"
+      },
+      "dark-primary": {
+        "role": "primary",
+        "displayName": "Dark primary"
+      },
+      "light-on-primary": {
+        "role": "neutral",
+        "displayName": "Light on primary"
+      },
+      "dark-on-primary": {
+        "role": "neutral",
+        "displayName": "Dark on primary"
+      },
+      "light-surface": {
+        "role": "neutral",
+        "displayName": "Light surface"
+      },
+      "dark-surface": {
+        "role": "neutral",
+        "displayName": "Dark surface"
+      },
+      "light-on-surface": {
+        "role": "neutral",
+        "displayName": "Light on surface"
+      },
+      "dark-on-surface": {
+        "role": "neutral",
+        "displayName": "Dark on surface"
+      },
+      "light-secondary-text": {
+        "role": "neutral",
+        "displayName": "Light secondary text"
+      },
+      "dark-secondary-text": {
+        "role": "neutral",
+        "displayName": "Dark secondary text"
+      },
+      "light-container-low": {
+        "role": "neutral",
+        "displayName": "Light container low"
+      },
+      "dark-container-low": {
+        "role": "neutral",
+        "displayName": "Dark container low"
+      },
+      "light-container": {
+        "role": "neutral",
+        "displayName": "Light container"
+      },
+      "dark-container": {
+        "role": "neutral",
+        "displayName": "Dark container"
+      },
+      "light-container-high": {
+        "role": "neutral",
+        "displayName": "Light container high"
+      },
+      "dark-container-high": {
+        "role": "neutral",
+        "displayName": "Dark container high"
+      },
+      "light-outline-variant": {
+        "role": "neutral",
+        "displayName": "Light outline variant"
+      },
+      "dark-outline-variant": {
+        "role": "neutral",
+        "displayName": "Dark outline variant"
+      }
+    },
+    "typographyMeta": {
+      "headline-large": {
+        "displayName": "Headline large",
+        "purpose": "Serif task introductions."
+      },
+      "headline-medium": {
+        "displayName": "Headline medium",
+        "purpose": "Serif sheet and full-player headings; wordmark overrides size to 30sp."
+      },
+      "title-large": {
+        "displayName": "Title large",
+        "purpose": "Serif section and empty-state titles."
+      },
+      "title-medium": {
+        "displayName": "Title medium",
+        "purpose": "Semibold controls and supporting headings."
+      },
+      "body-medium": {
+        "displayName": "Body medium",
+        "purpose": "Supporting copy with relaxed line height."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "navigation-duration",
+        "value": "240ms",
+        "purpose": "Flutter NavigationBar transition; Duration.zero when MediaQuery.disableAnimationsOf(context) is true."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "navigation-rail",
+        "value": "700dp"
+      }
+    ]
+  },
+  "components": [],
+  "narrative": {
+    "overview": "This Android surface extends the existing oto identity in the parent website: quiet typography, warm light surfaces, indigo dark surfaces, and a red accent. Material 3 supplies native navigation, sheets, fields, chips, dialogs, buttons, semantics, and system Back behavior.\n\nThese tokens describe the implemented Flutter theme and recurring components. Measurements use Android logical pixels (dp) and scalable text (sp), not browser CSS. Unspecified properties inherit Flutter Material 3 defaults.",
+    "keyCharacteristics": [
+      "Quiet serif headlines above clear system-sans controls.",
+      "Tonal containers and clipped artwork in independently mapped light and dark themes.",
+      "Native interaction feedback, safe insets, and system accessibility settings."
+    ],
+    "rules": [],
+    "dos": [
+      "Do reuse semantic ColorScheme roles and the existing serif/system-sans hierarchy.",
+      "Do retain safe insets, scalable text, labeled controls, and native Back behavior.",
+      "Do keep artwork and its loading/error fallback inside the same clipped shape."
+    ],
+    "donts": [
+      "Don't add continuous decorative animation to task or playback screens.",
+      "Don't treat an incomplete download as a playable library item."
+    ]
+  }
+}
